@@ -62,7 +62,6 @@
   <ItemGroup>
     <Compile Include="BankAccountRepositoryTest.cs" />
     <Compile Include="BankAccountTest.cs" />
-    <Compile Include="CustomerRepositoryTest.cs" />
     <Compile Include="CustomerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TransactionTest.cs" />
