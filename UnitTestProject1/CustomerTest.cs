@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BE;
-using Interfaces;
-using Moq;
 
 namespace UnitTestProject1
 {
@@ -15,8 +11,6 @@ namespace UnitTestProject1
         [TestMethod]
         public void CreateCustomer()
         {
-            IList<Customer> customers = new List<Customer>();
-            Mock<ICRUD<Customer>> mock = new Mock<ICRUD<Customer>>();
             int id = 1;
             string SSN = "0808921499";
             int yearBorn = 1992;
